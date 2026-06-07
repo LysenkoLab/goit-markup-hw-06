@@ -1,0 +1,26 @@
+
+.features-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.features-list .text-title {
+    margin-bottom: 8px;
+}
+
+.features-list .list {
+    flex-basis: calc((100% - 72px) / 4);
+}
+
+.icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    height: 112px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    background-color: #F4F4FD;
+}
+    

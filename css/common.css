@@ -1,0 +1,136 @@
+
+ul {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+
+p {
+    margin:0;
+    padding:0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin:0;
+    padding:0;
+}   
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0; 
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color:#434455;
+    line-height:1.5;
+    letter-spacing: 0.02em;
+    background-color: #fff;
+    margin: 0 auto;
+    }
+
+.section-title {
+    color:#2E2F42;
+    font-size: 36px;
+    line-height: 1.11111;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.text-title {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    color:#2e2f42;
+    letter-spacing: 0.02em;
+}
+
+.list {
+    background-color: #fff;
+}
+
+.logo {
+    font-size: 18px;
+    line-height: 1.33333;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+
+.logo span {
+    color: #4d5ae5;
+}
+
+.footer .text {
+    color: #f4f4fd;
+}
+
+.footer .logo {
+    color: #f4f4fd;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto; 
+}
+
+.section {
+    padding: 120px 0;
+  /*  margin: 0 141px; */
+
+}
+
+.sr-only {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+    margin: -1px;
+}
+
+/*.socials-list .list-item {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: #4D5AE5;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 250ms;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    fill:#f4f4fd;
+} */
+
+.socials-list .socials-link {
+    display: flex;
+    width: 40px;
+    height: 40px;
+   /* padding: 8px; */
+    border-radius: 20px;
+    background-color: #4D5AE5;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 250ms;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #f4f4fd;
+}

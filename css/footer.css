@@ -1,0 +1,118 @@
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer .logo {
+    color: #f4f4fd;
+}
+
+.footer-wrapper .text {
+    margin-top: 16px;
+    max-width: 264px;
+}
+
+.footer {
+    padding:100px 0;
+}
+
+.footer-wrapper {
+    margin-right: 120px;
+}
+
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.socials .socials-list {
+    display: flex;
+    gap: 16px;
+}
+
+.footer .container {
+    display: flex;
+}
+
+.footer .socials-link:hover, .footer .socials-link:focus {
+ background-color: #31D0AA;
+}
+
+.socials .text {
+    color:#ffffff;
+    font-weight: 500;
+}
+
+.subscribe {
+    display: block;
+    margin-left: 83px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#fff;
+}
+
+.subscribe .subscribe-form {
+    display: inline-flex;
+    margin-top: 16px;
+}
+
+.subscribe .subscribe-input {
+    min-width: 264px;
+    height: 40px;
+    padding: 8px 16px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    margin-right: 24px;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    }
+
+
+.subscribe .subscribe-input::placeholder {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em
+}
+
+.subscribe .subscribe-input:focus {
+    border: 1px solid #31D0AA;
+    outline: none;
+}
+
+.button-subsribe {
+    display: flex;
+    width: 165px;
+    max-width: 165px;
+    height: 40px;
+    padding: 8px 24px;
+    background-color: #4D5AE5;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    fill: #ffffff;
+    border: none;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-subsribe:hover, .button-subsribe:focus {
+    background-color: #31D0AA;
+}
