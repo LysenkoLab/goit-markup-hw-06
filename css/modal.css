@@ -30,7 +30,7 @@ pointer-events: auto;
     background-color: #FCFCFC;
     padding: 72px 16px 24px;
     border: 1px solid #888;
-    min-width: 288px;
+    max-width: 288px;
     border-radius: 4px;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
 
@@ -254,6 +254,7 @@ letter-spacing: 0.04em;
 
 @media screen and (min-width: 768px) {
     .modal-wrapper {
+        padding: 72px 24px 24px;
         margin: 0 auto;
         max-width: 408px;
     }

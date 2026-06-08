@@ -2,7 +2,6 @@
 .features-list {
     display: flex;
     flex-direction:column;
-    align-items: center;
     gap: 72px;
     justify-content: center;
 }
