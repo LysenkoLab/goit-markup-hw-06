@@ -1,9 +1,16 @@
 .team {
     background-color: #f4f4fd;
+    margin: 0 auto;
 }
 
 
  .team .text-title, .team .text {
+    font-weight: 400;
+    font-size: 16px;
+
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
@@ -13,8 +20,10 @@
 
 .team-list {
     display: flex;
-    gap: 24px;
+    flex-direction: column;
+    gap: 72px;
     justify-content: center;
+    align-items: center;
 }
 
 .team .text-wrapper {
@@ -23,9 +32,17 @@
 
 .team-list .text-title {
     margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+
+    /* line-height: 24px; */
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .team-list .list {
+    width: 264px;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
@@ -43,4 +60,26 @@
 .team-list .socials-link:hover, .team-list .socials-link:focus {
     background-color: #404BBF;
 }
-        
+      
+@media screen and (min-width: 768px) {
+    .team-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 64px 24px;
+    }
+
+    /*.team-list .list {
+        flex-basis: calc((100% - 24px) / 2);
+    }*/
+
+    .team-list .text-title {
+            text-align: center;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .team-list {
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
+}
