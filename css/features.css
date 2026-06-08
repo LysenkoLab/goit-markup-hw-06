@@ -71,7 +71,7 @@
 
 
     .features-list .list {
-        flex-basis: calc((100% - 48px) / 4);
+        flex-basis: calc((100% - 72px) / 4);
     }
 
     .features-list .text-title {
