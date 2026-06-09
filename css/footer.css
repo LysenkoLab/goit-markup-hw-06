@@ -192,6 +192,13 @@
         text-align: left;
     }
 
+    .container>.socials .socials-list {
+        
+        justify-content: flex-start;
+        
+        
+    }
+
     .subscribe {
         display: block;
         flex-grow: 100%;
@@ -230,16 +237,22 @@
         padding: 0 15px;
 
         flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: baseline;
 
 
     }
 
-    .footer-wrapper {
-        margin-right: 120px;
-    }
+    
 
     .subscribe {
         flex-grow: 0;
+        margin-left: 83px
+        
+    }
+
+    .socials {
+        margin-left: 120px;
     }
 
 
