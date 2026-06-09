@@ -237,8 +237,9 @@
         padding: 0 15px;
 
         flex-wrap: nowrap;
-        justify-content: flex-end;
+        justify-content: space-between;
         align-items: baseline;
+        gap: 0;
 
 
     }
@@ -247,7 +248,7 @@
 
     .subscribe {
         flex-grow: 0;
-        margin-left: 83px
+        
         
     }
 
