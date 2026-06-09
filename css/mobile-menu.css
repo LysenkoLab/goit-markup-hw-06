@@ -72,7 +72,7 @@
 
 .mobile-contacts .socials-list {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 40px;
 }
 
