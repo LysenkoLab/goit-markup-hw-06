@@ -237,13 +237,15 @@
         padding: 0 15px;
 
         flex-wrap: nowrap;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: baseline;
         gap: 0;
 
 
     }
-
+    .footer-wrapper {
+        margin-right: 120px;
+    }
     
 
     .subscribe {
@@ -253,7 +255,7 @@
     }
 
     .socials {
-        margin-left: 120px;
+        margin-left: auto;
     }
 
 
