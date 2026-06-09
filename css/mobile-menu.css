@@ -78,7 +78,7 @@
 
 
 
-.burger-is-open {
+.is-open {
     
     visibility: visible;
     pointer-events: auto;
